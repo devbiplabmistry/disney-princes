@@ -11,6 +11,11 @@ export default {
         poppins: ['Poppins', 'sans-serif'],
         vibes:['Great Vibes', 'cursive']
       },
+      colors: {
+        jade: '#077b8a', 
+        seaFoam:'#a2d5c6',
+        violet:'#5c3c92',
+    },
     },
   },
   plugins: [require("daisyui")],

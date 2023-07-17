@@ -3,11 +3,11 @@ import { FaUserAlt } from 'react-icons/fa';
 
 const NavBar = () => {
     const menu = <>
-        <Link className="font-lato hover:text-blue-700 font-extrabold mr-5 uppercase text-base text-black ">Home</Link>
-        <Link className="font-lato hover:text-blue-700 font-extrabold uppercase text-base mr-5 text-black">All Toys</Link>
-        <Link className="font-lato  hover:text-blue-700 font-extrabold uppercase text-base mr-5 text-black">My Toys</Link>
-        <Link className="font-lato  hover:text-blue-700 font-extrabold uppercase text-base mr-5 text-black">Add a Toy</Link>
-        <Link className="font-lato  hover:text-blue-700 font-extrabold uppercase text-base  text-black">blogs</Link>
+        <Link className="font-lato transition-all hover:text-violet font-extrabold mr-5 uppercase text-base text-jade ">Home</Link>
+        <Link className="font-lato transition-all hover:text-violet font-extrabold uppercase text-base mr-5 text-jade">All Toys</Link>
+        <Link className="font-lato transition-all  hover:text-violet font-extrabold uppercase text-base mr-5 text-jade">My Toys</Link>
+        <Link className="font-lato transition-all  hover:text-violet font-extrabold uppercase text-base mr-5 text-jade">Add a Toy</Link>
+        <Link className="font-lato transition-all  hover:text-violet font-extrabold uppercase text-base  text-jade">blogs</Link>
     </>
     return (
         <div>
@@ -21,7 +21,7 @@ const NavBar = () => {
                             {menu}
                         </ul>
                     </div>
-                    <Link className="font-vibes font-extrabold text-3xl text-black">Disney princes</Link>
+                    <Link className="font-vibes font-extrabold text-3xl text-jade">Disney princes</Link>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
@@ -29,7 +29,7 @@ const NavBar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <Link className="text-2xl"><FaUserAlt></FaUserAlt></Link>
+                    <Link to="/login" className="text-2xl"><FaUserAlt></FaUserAlt></Link>
                 </div>
             </div>
         </div>
