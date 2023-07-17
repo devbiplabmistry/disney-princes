@@ -9,9 +9,10 @@ export default {
       fontFamily: {
         lato: ['Lato', 'sans-serif'],
         poppins: ['Poppins', 'sans-serif'],
+        vibes:['Great Vibes', 'cursive']
       },
     },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 }
 
